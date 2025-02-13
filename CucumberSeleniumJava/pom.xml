@@ -28,7 +28,7 @@
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-java</artifactId>
-            <version>7.11.2</version>
+            <version>7.21.1</version>
             <scope>compile</scope>
         </dependency>
 
@@ -37,13 +37,14 @@
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-devtools-v132</artifactId>
             <version>4.28.1</version>
+            <scope>compile</scope>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-junit</artifactId>
-            <version>7.11.2</version>
+            <version>7.21.1</version>
             <scope>compile</scope>
         </dependency>
 
@@ -77,6 +78,8 @@
             <version>1.7.36</version>
             <scope>compile</scope>
         </dependency>
+
+
 
         <dependency>
             <groupId>junit</groupId>

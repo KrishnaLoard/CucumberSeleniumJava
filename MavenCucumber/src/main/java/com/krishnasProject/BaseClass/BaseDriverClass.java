@@ -1,19 +1,17 @@
-package com.krishnasPackage.basePackage;
+package com.krishnasProject.BaseClass;
 
 import com.google.common.reflect.TypeToken;
 import com.google.gson.Gson;
-import com.krishnasPackage.fatures.CollectionVariables;
-import com.krishnasPackage.fatures.ConfigurationEnv;
-import com.krishnasPackage.pages.ArtofTestingPage;
-import com.krishnasPackage.pages.CommonMethods;
-import com.krishnasPackage.pages.GooglePageBase;
-import com.krishnasPackage.pages.MainBasePage;
+import com.krishnasProject.Pages.ArtofTestingPage;
+import com.krishnasProject.Pages.CommonMethods;
+import com.krishnasProject.Pages.GooglePageBase;
+import com.krishnasProject.Pages.MainBasePage;
+import com.krishnasProject.feature.CollectionVariables;
+import com.krishnasProject.feature.ConfigurationEnv;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.junit.After;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-
 import java.io.FileReader;
 import java.lang.reflect.Type;
 import java.util.Map;
@@ -70,11 +68,6 @@ public class BaseDriverClass {
         String title = driver.getTitle();
         System.out.println("Page title is: " + title);
         assert title.contains("Google") : "Title does not match!";
-    }
-
-    @After
-    public void TearDownMethod() {
-        driver.quit();
     }
 
     public FileReader ReadFileConfig(String FilePath) {
