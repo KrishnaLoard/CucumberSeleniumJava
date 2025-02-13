@@ -1,0 +1,9 @@
+{
+	"TestSettings": {
+		"BrowserType": "chrome",
+		"TimeOut": "10",
+		"Country_of_birth": "India",
+		"BaseUrl": "\"http://www.google.com\"",
+		"Case1Url": "\"https://artoftesting.com/samplesiteforselenium\""
+	}
+}
