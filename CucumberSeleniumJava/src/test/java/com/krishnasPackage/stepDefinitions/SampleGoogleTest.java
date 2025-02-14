@@ -1,4 +1,4 @@
-package com.krishnasPackage.stepDefinationsCases;
+package com.krishnasPackage.stepDefinitions;
 
 import com.krishnasPackage.basePackage.BaseDriverClass;
 import com.krishnasPackage.fatures.CollectionVariables;

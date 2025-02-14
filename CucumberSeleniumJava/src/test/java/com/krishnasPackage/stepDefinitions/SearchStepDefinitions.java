@@ -1,37 +1,40 @@
-package com.krishnasPackage.stepDefinationsCases;
+package com.krishnasPackage.stepDefinitions;
 
+import com.krishnasPackage.fatures.CollectionVariables;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class TestCaseValidationForm {
+import static com.krishnasPackage.fatures.CollectionVariables.*;
 
-    public TestCaseValidationForm() {
+public class SearchStepDefinitions {
+
+    public SearchStepDefinitions() {
 
     }
 
     @Given("Check Page Is Loaded")
     public void TestCaseStep1() {
-        System.out.println("Checking First STEP1");
+        LOGGER.info("Checking First STEP1");
     }
 
     @When("User Enters the FirstName {string} and Email {string}")
     public void TestCaseStep2(String firstname, String lastname) {
-        System.out.println("Checking First STEP2 " + firstname + "And " + lastname);
+        LOGGER.info("Checking First STEP2 {}And {}", firstname, lastname);
     }
 
     @Then("Entered Value {string} Successfully")
     public void TestCaseStep3New(String Male) {
-        System.out.print("Checking First STEP3 --> " + Male);
+        LOGGER.info("Checking First STEP3 --> {}", Male);
     }
 
     @When("User Checks Gender Checkbox and Selects the {string} Gender")
     public void TestCaseStep4(String GenderFemale) {
-        System.out.print("Checking First STEP4 --> " + GenderFemale);
+        LOGGER.info("Checking First STEP4 --> " + GenderFemale);
     }
 
     @Then("User Enters the Mobile Number After Checking {string}")
     public void TestCaseStep5(String Mobile) {
-        System.out.print("Checking First STEP5 --> " + Mobile);
+        LOGGER.info("Checking First STEP5 --> {}", Mobile);
     }
 }

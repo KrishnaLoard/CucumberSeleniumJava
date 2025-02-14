@@ -5,23 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fba4d6c3-95c7-424e-961a-12e5c284109d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/mavenExecutorSetting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/SampleTest1.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Search.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/krishnasPackage/Runners/TestRunner1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/krishnasPackage/Runners/TestRunner2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/krishnasPackage/Runners/TestRunnerJava.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/krishnasPackage/basePackage/BaseDriverClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/krishnasPackage/basePackage/BaseDriverClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/krishnasPackage/fatures/CollectionVariables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/krishnasPackage/fatures/CollectionVariables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/krishnasPackage/fatures/ConfigurationEnv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/krishnasPackage/fatures/ConfigurationEnv.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/krishnasPackage/pages/ArtofTestingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/krishnasPackage/pages/ArtofTestingPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/krishnasPackage/pages/CommonMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/krishnasPackage/pages/CommonMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/krishnasPackage/pages/GooglePageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/krishnasPackage/pages/GooglePageBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/krishnasPackage/pages/MainBasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/krishnasPackage/pages/MainBasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/krishnasPackage/stepDefinationsCases/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/krishnasPackage/stepDefinationsCases/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/krishnasPackage/stepDefinationsCases/SampleGoogleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/krishnasPackage/stepDefinationsCases/SampleGoogleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/krishnasPackage/stepDefinationsCases/SamplePageTest1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/SampleTest2.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/krishnasPackage/Runners/TestRunner1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krishnasPackage/runners/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/krishnasPackage/stepDefinationsCases/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krishnasPackage/stepDefinitions/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/krishnasPackage/stepDefinationsCases/SampleGoogleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krishnasPackage/stepDefinitions/SampleGoogleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/krishnasPackage/stepDefinationsCases/TestCaseValidationForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krishnasPackage/stepDefinitions/SearchStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/TestCaseValidationForm.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/TestCaseValidationForm.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,12 +46,16 @@
     "Cucumber Java.Feature: SampleTest1.executor": "Run",
     "Cucumber Java.Feature: SampleTest2.executor": "Run",
     "Cucumber Java.Feature: SampleTest3.executor": "Run",
+    "Cucumber Java.Feature: Search.executor": "Run",
     "Cucumber Java.Feature: TestCaseValidationForm.executor": "Run",
     "Cucumber Java.Feature: TestName.executor": "Run",
+    "Cucumber Java.Feature: login (1).executor": "Run",
     "Cucumber Java.Feature: login.executor": "Run",
     "Cucumber Java.Scenario: .executor": "Run",
     "Cucumber Java.Scenario: Checking If Page Element Displayed.executor": "Run",
     "Cucumber Java.Scenario: Checking If Page Elements Are Displayed.executor": "Run",
+    "Cucumber Java.Scenario: Sample Google Pages..executor": "Run",
+    "JUnit.TestRunner.executor": "Run",
     "JUnit.TestRunner1.executor": "Run",
     "JUnit.TestRunner2.executor": "Run",
     "JUnit.TestRunner3.executor": "Run",
@@ -68,24 +66,24 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/kishanbheemajiyani/Javaworkspace/EclipseWorkSpace/CucumberWorkSpace/CucumberSeleniumJava/CucumberSeleniumJava/src/main/java/com/krishnasPackage/stepDefinationsCases",
+    "last_opened_file_path": "/Users/kishanbheemajiyani/Javaworkspace/EclipseWorkSpace/CucumberWorkSpace/CucumberSeleniumJava/CucumberSeleniumJava/src/main/resources",
     "settings.editor.selected.configurable": "Console"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/java/com/krishnasPackage/stepDefinationsCases" />
       <recent name="$PROJECT_DIR$/src/test/java/com/krishnasPackage/stepDefinationsCases" />
       <recent name="$PROJECT_DIR$/src/test/resources" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/test/java/com/krishnasPackage/pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources/features" />
       <recent name="$PROJECT_DIR$/src/test/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: TestCaseValidationForm">
+  <component name="RunManager" selected="JUnit.TestRunner">
     <configuration name="Feature: SampleTest1" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/SampleTest1.feature" />
@@ -94,6 +92,25 @@
       <module name="CucumberSeleniumJava" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <option name="SUGGESTED_NAME" value="Feature: SampleTest1" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: Search" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Search.feature" />
+      <option name="GLUE" value="com.krishnasPackage.stepDefinationsCases" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="CucumberSeleniumJava" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: Search" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -124,14 +141,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: TestName" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: login (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/TestName.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/login.feature" />
       <option name="GLUE" value="com.krishnasPackage.stepDefinationsCases" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="CucumberSeleniumJava" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: TestName" />
+      <option name="SUGGESTED_NAME" value="Feature: login" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -143,36 +160,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Checking If Page Elements Are Displayed" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/TestCaseValidationForm.feature" />
-      <option name="GLUE" value="com.krishnasPackage.stepDefinationsCases" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="CucumberSeleniumJava" />
-      <option name="NAME_FILTER" value="^Checking If Page Elements Are Displayed$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Checking If Page Elements Are Displayed$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Checking If Page Elements Are Displayed" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestRunner1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CucumberSeleniumJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.krishnasPackage.Runners.*" />
+          <option name="PATTERN" value="com.krishnasPackage.runners.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.krishnasPackage.Runners" />
-      <option name="MAIN_CLASS_NAME" value="com.krishnasPackage.Runners.TestRunner1" />
+      <option name="PACKAGE_NAME" value="com.krishnasPackage.runners" />
+      <option name="MAIN_CLASS_NAME" value="com.krishnasPackage.runners.TestRunner" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -180,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: TestCaseValidationForm" />
-        <item itemvalue="JUnit.TestRunner1" />
-        <item itemvalue="Cucumber Java.Scenario: Checking If Page Elements Are Displayed" />
+        <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Feature: Search" />
         <item itemvalue="Cucumber Java.Feature: SampleTest1" />
-        <item itemvalue="Cucumber Java.Feature: TestName" />
+        <item itemvalue="Cucumber Java.Feature: TestCaseValidationForm" />
+        <item itemvalue="Cucumber Java.Feature: login (1)" />
       </list>
     </recent_temporary>
   </component>

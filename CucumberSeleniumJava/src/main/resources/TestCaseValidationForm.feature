@@ -1,5 +1,4 @@
 Feature: Testing the Sample Form Using Cucumber
-
   Scenario: Checking If Page Elements Are Displayed
     Given Check Page Is Loaded
     When User Enters the FirstName "John" and Email "Bheemajiyani"
