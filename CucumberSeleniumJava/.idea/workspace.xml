@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fba4d6c3-95c7-424e-961a-12e5c284109d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/mavenExecutorSetting.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/SampleTest1.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Search.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/krishnasPackage/Runners/TestRunner1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krishnasPackage/runners/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/krishnasPackage/stepDefinationsCases/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krishnasPackage/stepDefinitions/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/krishnasPackage/stepDefinationsCases/SampleGoogleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krishnasPackage/stepDefinitions/SampleGoogleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/krishnasPackage/stepDefinationsCases/TestCaseValidationForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/krishnasPackage/stepDefinitions/SearchStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/TestCaseValidationForm.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/TestCaseValidationForm.feature" afterDir="false" />
-    </list>
+    <list default="true" id="fba4d6c3-95c7-424e-961a-12e5c284109d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
