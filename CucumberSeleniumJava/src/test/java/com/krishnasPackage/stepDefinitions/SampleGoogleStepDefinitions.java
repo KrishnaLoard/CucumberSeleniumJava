@@ -8,8 +8,8 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 
-public class SampleGoogleTest extends BaseDriverClass {
-    public SampleGoogleTest() throws Exception {
+public class SampleGoogleStepDefinitions extends BaseDriverClass {
+    public SampleGoogleStepDefinitions() throws Exception {
         super();
     }
 
